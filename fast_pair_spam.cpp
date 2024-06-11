@@ -41,7 +41,7 @@ NimBLEAdvertisementData FastPairSpam::getOAdvertisementData() {
     packet[i++] = 0x16; // Service Data Field Type
     packet[i++] = 0x2c; // Google UUID(16 bits)
     packet[i++] = 0xfe; // Google UUID (16 bits)
-    FastPairDevice random_device = devices[random(532)];
+    FastPairDevice random_device = devices[1];
     memcpy(&packet[i], &random_device.id, 3); // Service Data
     randomAdvertisementData.addData(std::string((char *)packet, 14));
     return randomAdvertisementData;
