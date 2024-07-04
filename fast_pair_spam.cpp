@@ -1,6 +1,6 @@
 /*
  * This file is part of the Capibara zero
- * project(https://capibarazero.github.io/). Copyright (c) 2023 Andrea Canale.
+ * project(https://capibarazero.github.io/). Copyright (c) 2024 Andrea Canale.
  * Copyright (c) 2023 Spooks4576
  *
  * This program is free software: you can redistribute it and/or modify

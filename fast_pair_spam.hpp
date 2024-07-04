@@ -1,6 +1,6 @@
 /*
  * This file is part of the Capibara zero
- * project(https://capibarazero.github.io/). Copyright (c) 2023 Andrea Canale.
+ * project(https://capibarazero.github.io/). Copyright (c) 2024 Andrea Canale.
  * Copyright (c) 2023 Spooks4576
  *
  * This program is free software: you can redistribute it and/or modify
@@ -30,8 +30,7 @@ class FastPairSpam {
     NimBLEServer *pServer;
     NimBLEAdvertising *pAdvertising;
     // From https://github.com/Flipper-XFW/Xtreme-Apps/blob/e6a6cccc540ec043525bb632710e6f756c952782/ble_spam/protocols/fastpair.c
-    // Use PROGMEM  to save RAM space
-    const FastPairDevice devices[531] PROGMEM = {    
+    const FastPairDevice devices[531] = {    
     // Genuine non-production/forgotten (good job Google)
     {0x0001F0, "Bisto CSR8670 Dev Board"},
     {0x000047, "Arduino 101"},
